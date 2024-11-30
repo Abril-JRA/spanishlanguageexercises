@@ -1,123 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reflexivos: Identificar</title>
-  <link rel="stylesheet" href="../../styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../../styles.css">
-  <style>
-   
-  </style>
+  <link href="../../css/bootstrap.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="header py-3 text-center">
-    <h1 class="fw-bold">Spanish Language Exercises</h1>
-  </header>
-
-  <!-- Horizontal Navigation Menu -->
-<div class="bg-light">
-    <div class="container-fluid">
-        <ul class="nav nav-pills align-items-center py-2 d-flex justify-content-between">
-           
-            <!-- Home link -->
-            <li class="nav-item">
-                <a class="nav-link" href="../../index.html">Home</a>
-            </li>
-			<!-- Verbs Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="verbsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Verbs
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="verbsDropdown">
-                    <li><span class="dropdown-item disabled"  aria-disabled="true" href="#gustar">Gustar and Similar</span></li>
-					<li><a class="dropdown-item" href="../verbs/reflexivos_identificar.html">Reflexivos: Identificar</a></li>
-                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#subjunctive">Subjunctive</span></li>
-                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#imperatives">Imperatives</span></li>
-                </ul>
-            </li>
-
-            <!-- Listening Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="listeningDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Listening
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="listeningDropdown">
-                    <li><a class="dropdown-item" href="../listening/sinalefas_1.html">Transcripción de frases - Sinalefas 1</a></li>
-                    <li><a class="dropdown-item" href="../listening/sinalefas_1.html">Transcripción de frases - Sinalefas 2</a></li>
-                </ul>
-            </li>
-
-            <!-- Writing Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="writingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Writing
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="writingDropdown">
-                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#formal">Formal Writing</span></li>
-                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#informal">Informal Writing</span></li>
-                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#essays">Essays</span></li>
-                </ul>
-            </li>
-
-<!--
-<li class="nav-item flex-grow-1 d-flex justify-content-center">
-    <form class="d-flex" role="search" style="width: 30%;">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="max-width: 180px;">
-        <button class="btn btn-outline-primary" type="submit">Search</button>
-    </form>
-</li>
-               <li class="nav-item">
-                    <a class="nav-link" href="report.html">Report a Problem</a>
-                </li>
--->
-
-            <!-- About link -->
-            <li class="nav-item">
-                <a class="nav-link" href="../../about.html">About</a>
-            </li>
-			
-			 <!-- Credits link -->
-			<li class="nav-item">
-                <a class="nav-link" href="../../credits.html" aria-label="Credits page">Credits</a>
-			</li>
-
-            <!-- Ursinus College logo -->
-            <li class="nav-item">
-                <a class="navbar-brand" href="https://www.ursinus.edu/" target="_blank" rel="noopener noreferrer" title="Go to Ursinus College" aria-label="Go to Ursinus College (opens in a new tab)">
-                    <img src="../../assets/images/Ursinus-College-Logo-1.png" alt="Ursinus College" width="30" class="d-inline-block align-text-top">
-                </a>
-            </li>
-        </ul>
+<nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../../index.html">Spanish Language Exercises</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Verbs</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="exercises/verbs/reflexivos_identificar.html">Identificar reflexivos</a>
+            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Imperativos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Subjuntivo</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Pronouns</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Directos</a>
+            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Indirectos</a>
+            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Relativos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Más</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Listening</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../../exercises/listening/sinalefas_1.html">Transcripción de frases - Sinalefa 1</a>
+            <a class="dropdown-item" href="../../exercises/listening/sinalefas_2.html">Transcripción de frases - Sinalefa 2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Más</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../credits.html">Credits</a>
+        </li>
+        <li class="nav-item">
+          <a class="link" href="https://www.ursinus.edu/" target="_blank" rel="noopener noreferrer" title="Go to Ursinus College" aria-label="Go to Ursinus College (opens in a new tab)">
+            <img src="../../assets/images/Ursinus-College-Logo-1.png" alt="Ursinus College" width="30" class="d-inline-block align-text-top">
+          </a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-</div>
+  </div>
+</nav>
 
   <!-- Main Content -->
   <main class="container mt-4">
     <!-- Instructions Section -->
-    <section class="instructions p-4 rounded mb-4">
+ 
       <h3>Verbos con significado reflexivo</h3>
       <p>Cuando el <strong>sujeto</strong> y el <strong>objeto</strong> de un verbo son la misma persona, el verbo tiene significado <strong>reflexivo</strong>.</p>
       <p>Un mismo verbo puede tener una <strong>forma reflexiva</strong> formada con un <strong>pronombre</strong>. Mira la diferencia entre las formas <emp>lavar</emp> y <emp>lavarse</emp> en estos dos ejemplos</strong>:</p>
       <div class="row g-3 text-center mt-3">
         <div class="col-md-6">
-          <img src="../../assets/images/woman_washing_car.jpeg" width="400" alt="La mujer lava el coche" class="img-fluid mb-2">
+          <img src="../../assets/images/woman_washing_car.jpeg" width="375" alt="La mujer lava el coche" class="img-fluid mb-2">
           <p class="non-reflexive">La mujer <strong>lava</strong> el coche</p>
           <small>(Significado no reflexivo)</small>
         </div>
         <div class="col-md-6">
-          <img src="../../assets/images/woman_washing_her_hands.jpeg" width="400" alt="La mujer se lava las manos" class="img-fluid mb-2">
+          <img src="../../assets/images/woman_washing_her_hands.jpeg" width="375" alt="La mujer se lava las manos" class="img-fluid mb-2">
           <p class="reflexive">La mujer <strong>se lava</strong> las manos</p>
           <small>(Significado reflexivo)</small>
         </div>
       </div>
-    </section>
-
+	  <p></p>
     <!-- Quiz Form -->
     <section>
       <h4>Determina si las oraciones tienen significado reflexivo o no reflexivo</h4>
@@ -126,7 +94,8 @@
         <div class="questions">
           <div class="mb-3" id="q1">
             <p><strong>1.</strong> Yo acuerdo una reunión con mis compañeros de clase.</p>
-			<label><input type="radio" name="q1" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio" name="q1" value="no_reflexivo">No reflexiva</label>
+			<label><input type="radio" name="q1" value="reflexivo">Reflexiva</label>
+			<label class="ms-2"><input type="radio" name="q1" value="no_reflexivo">No reflexiva</label>
           </div>
         
         <!-- Question 2 -->
