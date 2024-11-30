@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reflexivos: Identificar</title>
+  <link rel="stylesheet" href="../../styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header py-3 text-center">
+    <h1 class="fw-bold">Spanish Language Exercises</h1>
+  </header>
+
+  <!-- Horizontal Navigation Menu -->
+<div class="bg-light">
+    <div class="container-fluid">
+        <ul class="nav nav-pills align-items-center py-2 d-flex justify-content-between">
+           
+            <!-- Home link -->
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+			<!-- Verbs Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="verbsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Verbs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="verbsDropdown">
+                    <li><span class="dropdown-item disabled"  aria-disabled="true" href="#gustar">Gustar and Similar</span></li>
+					<li><a class="dropdown-item" href="../verbs/reflexivos_identificar.html">Reflexivos: Identificar</a></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#subjunctive">Subjunctive</span></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#imperatives">Imperatives</span></li>
+                </ul>
+            </li>
+
+            <!-- Listening Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="listeningDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Listening
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="listeningDropdown">
+                    <li><a class="dropdown-item" href="../listening/sinalefas_1.html">Transcripción de frases - Sinalefas 1</a></li>
+                    <li><a class="dropdown-item" href="../listening/sinalefas_1.html">Transcripción de frases - Sinalefas 2</a></li>
+                </ul>
+            </li>
+
+            <!-- Writing Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="writingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Writing
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="writingDropdown">
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#formal">Formal Writing</span></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#informal">Informal Writing</span></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#essays">Essays</span></li>
+                </ul>
+            </li>
+
+<!--
+<li class="nav-item flex-grow-1 d-flex justify-content-center">
+    <form class="d-flex" role="search" style="width: 30%;">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="max-width: 180px;">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+</li>
+               <li class="nav-item">
+                    <a class="nav-link" href="report.html">Report a Problem</a>
+                </li>
+-->
+
+            <!-- About link -->
+            <li class="nav-item">
+                <a class="nav-link" href="../../about.html">About</a>
+            </li>
+			
+			 <!-- Credits link -->
+			<li class="nav-item">
+                <a class="nav-link" href="../../credits.html" aria-label="Credits page">Credits</a>
+			</li>
+
+            <!-- Ursinus College logo -->
+            <li class="nav-item">
+                <a class="navbar-brand" href="https://www.ursinus.edu/" target="_blank" rel="noopener noreferrer" title="Go to Ursinus College" aria-label="Go to Ursinus College (opens in a new tab)">
+                    <img src="../../assets/images/Ursinus-College-Logo-1.png" alt="Ursinus College" width="30" class="d-inline-block align-text-top">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+  <!-- Main Content -->
+  <main class="container mt-4">
+    <!-- Instructions Section -->
+    <section class="instructions p-4 rounded mb-4">
+      <h3>Verbos con significado reflexivo</h3>
+      <p>Cuando el <strong>sujeto</strong> y el <strong>objeto</strong> de un verbo son la misma persona, el verbo tiene significado <strong>reflexivo</strong>.</p>
+      <p>Un mismo verbo puede tener una <strong>forma reflexiva</strong> formada con un <strong>pronombre</strong>. Mira la diferencia entre las formas <emp>lavar</emp> y <emp>lavarse</emp> en estos dos ejemplos</strong>:</p>
+      <div class="row g-3 text-center mt-3">
+        <div class="col-md-6">
+          <img src="../../assets/images/woman_washing_car.jpeg" width="400" alt="La mujer lava el coche" class="img-fluid mb-2">
+          <p class="non-reflexive">La mujer <strong>lava</strong> el coche</p>
+          <small>(Significado no reflexivo)</small>
+        </div>
+        <div class="col-md-6">
+          <img src="../../assets/images/woman_washing_her_hands.jpeg" width="400" alt="La mujer se lava las manos" class="img-fluid mb-2">
+          <p class="reflexive">La mujer <strong>se lava</strong> las manos</p>
+          <small>(Significado reflexivo)</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz Form -->
+    <section>
+      <h4>Determina si las oraciones tienen significado reflexivo o no reflexivo</h4>
+	  <p></p>
+      <form id="quizForm">
+        <div class="questions">
+          <div class="mb-3" id="q1">
+            <p><strong>1.</strong> Yo acuerdo una reunión con mis compañeros de clase.</p>
+			<label><input type="radio" name="q1" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio" name="q1" value="no_reflexivo">No reflexiva</label>
+          </div>
+        
+        <!-- Question 2 -->
+		<div class="mb-3" id="q2">
+          <p><strong>2.</strong> María se acuerda de su infancia cuando ve fotos antiguas.</p>
+          <label><input type="radio" name="q2" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio" name="q2" value="no_reflexivo">No reflexiva</label>
+        </div>
+        
+
+        <!-- Question 3 -->
+        <div class="mb-3" id="q3">
+          <p><strong>3.</strong> Nos alegramos mucho de verte.</p>
+          <label><input type="radio" name="q3" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio"type="radio" name="q3" value="no_reflexivo">No reflexiva</label>
+        </div>
+
+         <!-- Question 4 -->
+        <div class="mb-3" id="q4">
+          <p><strong>4.</strong>  Nos servimos las bebidas antes de comer.</p>
+          <label><input type="radio" name="q4" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio" name="q4" value="no_reflexivo">No reflexiva</label>
+        </div>
+
+		<!-- Question 5 -->
+        <div class="mb-3" id="q5">
+          <p><strong>5.</strong> Tu anuncio nos alegra.</p>
+          <label><input type="radio" name="q5" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio" name="q5" value="no_reflexivo">No reflexiva</label>
+        </div>
+
+
+
+        <!-- Question 6 -->
+        <div class="mb-3" id="q6">
+          <p><strong>6.</strong> El camarero nos sirve las bebidas muy pronto.</p>
+          <label><input type="radio" name="q6" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio" name="q6" value="no_reflexivo">No reflexiva</label>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="mb-3" id="q7">
+          <p><strong>7.</strong> Mis amigos y yo nos divertimos mucho en el parque de atracciones.</p>
+          <label><input type="radio" name="q7" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio"name="q7" value="no_reflexivo">No reflexiva</label>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="mb-3" id="q8">
+          <p><strong>8.</strong> El payaso divierte a los niños con sus trucos.</p>
+          <label><input type="radio" name="q8" value="reflexivo">Reflexiva</label><label class="ms-2"><input type="radio" name="q8" value="no_reflexivo">No reflexiva</label>
+        </div>
+      </div>
+   </form>
+      <div class="d-flex align-items-center mt-3">
+  <button type="button" class="btn btn-primary me-3" onclick="checkAnswers()">Comprobar</button>
+  <span id="score" class="score"></span>
+</div>
+
+    <p id="score" class="score text-center mt-4"></p>
+  </div>
+
+ <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function checkAnswers() {
+      const correctAnswers = {
+        q1: "no_reflexivo",
+		q2:	"reflexivo",
+		q3:	"reflexivo",
+		q4:	"reflexivo",
+		q5:	"no_reflexivo",
+		q6: "no_reflexivo",
+		q7:	"reflexivo",
+		q8: "no_reflexivo",
+        // Add remaining answers here
+      };
+
+      let score = 0;
+      const totalQuestions = Object.keys(correctAnswers).length;
+
+      Object.keys(correctAnswers).forEach((question) => {
+        const selected = document.querySelector(`input[name="${question}"]:checked`);
+        const questionDiv = document.getElementById(question);
+
+        questionDiv.classList.remove("text-success", "text-danger");
+
+        if (selected) {
+          if (selected.value === correctAnswers[question]) {
+            score++;
+            questionDiv.classList.add("text-success");
+          } else {
+            questionDiv.classList.add("text-danger");
+          }
+        } else {
+          questionDiv.classList.add("text-danger");
+        }
+      });
+
+      document.getElementById("score").textContent = `Tu puntuación es ${score} de ${totalQuestions}.`;
+    }
+  </script>
+</body>
+
+</html>

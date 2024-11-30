@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio: Transcripción de frases - Sinalefas 1</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <!-- Minimalist Header -->
+  <header class="bg-light border-bottom py-3 text-center">
+    <h1 class="m-0 fw-bold">Spanish Language Exercises</h1>
+  </header>
+<!-- Horizontal Navigation Menu -->
+<div class="bg-light">
+    <div class="container-fluid">
+        <ul class="nav nav-pills align-items-center py-2 d-flex justify-content-between">
+           
+            <!-- Home link -->
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+			<!-- Verbs Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="verbsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Verbs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="verbsDropdown">
+                    <li><span class="dropdown-item disabled"  aria-disabled="true" href="#gustar">Gustar and Similar</span></li>
+					<li><a class="dropdown-item" href="../verbs/reflexivos_identificar.html">Reflexivos: Identificar</a></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#subjunctive">Subjunctive</span></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#imperatives">Imperatives</span></li>
+                </ul>
+            </li>
+
+            <!-- Listening Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="listeningDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Listening
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="listeningDropdown">
+                    <li><a class="dropdown-item" href="#">Transcripción de frases - Sinalefas 1</a></li>
+                    <li><a class="dropdown-item" href="sinalefas_2.html">Transcripción de frases - Sinalefas 2</a></li>
+                </ul>
+            </li>
+
+            <!-- Writing Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="writingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Writing
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="writingDropdown">
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#formal">Formal Writing</span></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#informal">Informal Writing</span></li>
+                    <li><span class="dropdown-item disabled" aria-disabled="true" href="#essays">Essays</span></li>
+                </ul>
+            </li>
+
+ <!--
+<li class="nav-item flex-grow-1 d-flex justify-content-center">
+    <form class="d-flex" role="search" style="width: 30%;">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="max-width: 180px;">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+</li>
+               <li class="nav-item">
+                    <a class="nav-link" href="report.html">Report a Problem</a>
+                </li>
+-->
+
+            <!-- About link -->
+            <li class="nav-item">
+                <a class="nav-link" href="../../about.html">About</a>
+            </li>
+
+           	<!-- Credits link -->
+			<li class="nav-item">
+                <a class="nav-link" href="../../credits.html" aria-label="Credits page">Credits</a>
+			</li>
+
+			<!-- Ursinus College logo -->
+            <li class="nav-item">
+                <a class="navbar-brand" href="https://www.ursinus.edu/" target="_blank" rel="noopener noreferrer" title="Go to Ursinus College" aria-label="Go to Ursinus College (opens in a new tab)">
+                    <img src="../../assets/images/Ursinus-College-Logo-1.png" alt="Ursinus College" width="30" class="d-inline-block align-text-top">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+  <!-- Exercise Content -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Transcripción de frases - Sinalefas 1</h2>
+
+    <div class="instructions">
+      <h3>Instrucciones</h3>
+      <p>Escucha cada grabación y escribe lo que escuchas en el campo correspondiente. Cuando termines, haz clic en "Comprobar" para ver tu puntuación.</p>
+    </div>
+
+    <form id="quizForm">
+      <!-- Question 1 -->
+      <div class="audio-question mb-3">
+        <p><strong>1.</strong> Escucha el audio:</p>
+        <audio controls>
+          <source src="../../assets/audio/La_araña_azul_está_en_la_esquina.wav" type="audio/wav">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        <input type="text" id="q1" class="form-control mt-2" placeholder="Escribe tu respuesta aquí. Escribe un punto al final de la oración.">
+      </div>
+
+      <!-- Question 2 -->
+      <div class="audio-question mb-3">
+        <p><strong>2.</strong> Escucha el audio:</p>
+        <audio controls>
+          <source src="../../assets/audio/La_universidad_abre_en_agosto_ahora.wav" type="audio/wav">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        <input type="text" id="q2" class="form-control mt-2" placeholder="Escribe tu respuesta aquí. Escribe un punto al final de la oración.">
+      </div>
+
+      <!-- Question 3 -->
+      <div class="audio-question mb-3">
+        <p><strong>3.</strong> Escucha el audio:</p>
+        <audio controls>
+          <source src="../../assets/audio/Me_invitaron_al_cine_esta_noche.wav" type="audio/wav">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        <input type="text" id="q3" class="form-control mt-2" placeholder="Escribe tu respuesta aquí. Escribe un punto al final de la oración.">
+      </div>
+
+      <!-- Question 4 -->
+      <div class="audio-question mb-3">
+        <p><strong>4.</strong> Escucha el audio:</p>
+        <audio controls>
+          <source src="../../assets/audio/Mi_amigo_italiano_estudia_idiomas.wav" type="audio/wav">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        <input type="text" id="q4" class="form-control mt-2" placeholder="Escribe tu respuesta aquí. Escribe un punto al final de la oración.">
+      </div>
+
+      <!-- Question 5 -->
+      <div class="audio-question mb-3">
+        <p><strong>5.</strong> Escucha el audio:</p>
+        <audio controls>
+          <source src="../../assets/audio/Voy_a_estudiar_español_mañana.wav" type="audio/wav">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        <input type="text" id="q5" class="form-control mt-2" placeholder="Escribe tu respuesta aquí. Escribe un punto al final de la oración.">
+      </div>
+
+      <button type="button" class="btn btn-primary mt-3" onclick="checkAnswers()">Comprobar</button>
+    </form>
+
+    <p id="score" class="score text-center mt-4"></p>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function checkAnswers() {
+      const correctAnswers = [
+        "La araña azul está en la esquina.",
+        "La universidad abre en agosto ahora.",
+        "Me invitaron al cine esta noche.",
+        "Mi amigo italiano estudia idiomas.",
+        "Voy a estudiar español mañana."
+      ];
+
+      let score = 0;
+      const totalQuestions = correctAnswers.length;
+
+      for (let i = 0; i < totalQuestions; i++) {
+        const userAnswer = document.getElementById(`q${i + 1}`)?.value.trim();
+        const questionElement = document.getElementById(`q${i + 1}`);
+
+        if (userAnswer && userAnswer.toLowerCase() === correctAnswers[i].toLowerCase()) {
+          questionElement.style.borderColor = "green";
+          score++;
+        } else if (questionElement) {
+          questionElement.style.borderColor = "red";
+        }
+      }
+
+      document.getElementById("score").textContent = `Tu puntuación es ${score} de ${totalQuestions}.`;
+    }
+  </script>
+</body>
+</html>

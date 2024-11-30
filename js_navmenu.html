@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Minimalist Header -->
+<header class="bg-light border-bottom py-3 text-center">
+    <h1 class="m-0 fw-bold">Spanish Language Exercises</h1>
+</header>
+
+<script>
+  fetch('/assets/includes/navmenu.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navmenu').innerHTML = data;
+    });
+</script>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h2>Welcome to Spanish Language Exercises</h2>
+        <p>Use the navigation menu above to explore grammar, listening, and writing exercises.</p>
+
+       
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
