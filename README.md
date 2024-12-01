@@ -56,7 +56,5 @@ These exercises are designed for Spanish learners and educators and aim to provi
 - Add scoring and progress tracking for students.
 
 ## License
-## License
-
 This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
