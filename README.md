@@ -9,6 +9,7 @@ A collection of interactive exercises designed to help students improve their Sp
 2. [Features](#features)
 3. [Folder Structure](#folder-structure)
 4. [Future Plans](#future-plans)
+5. [License](#License)
 
 ---
 
@@ -47,9 +48,11 @@ These exercises are designed for Spanish learners and educators and aim to provi
 ├── js/                   # JavaScript for interactive exercises
 ├── README.md             # This file
 ├── index.html            # Main landing page
-
+```
 
 ## Fuure Plans
 - Add more drag-and-drop exercises for different verb tenses.
 - Include listening exercises with audio files.
 - Add scoring and progress tracking for students.
+
+## License
