@@ -52,6 +52,7 @@ These exercises are designed for Spanish learners and educators and aim to provi
 
 ## Draft of Navigation Menu
 
+```plaintext
 /ejercicios/
 ├── comprension_auditiva/         # Actividades de comprensión auditiva
 ├── comprension_lectora/          # Actividades de comprensión lectora
@@ -87,7 +88,7 @@ These exercises are designed for Spanish learners and educators and aim to provi
 ├── comparaciones/                # Ejercicios sobre Comparaciones
 ├── imperativo/                   # Ejercicios sobre el Imperativo
 ├── explicacion_gramatical.html   # Explicaciones gramaticales
-
+```
 
 ## Future Plans
 - Add more drag-and-drop exercises for different verb tenses.
