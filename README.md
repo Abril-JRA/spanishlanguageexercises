@@ -57,19 +57,19 @@ These exercises are designed for Spanish learners and educators and aim to provi
 ├── comprension_auditiva/         				# Actividades de comprensión auditiva
 ├── comprension_lectora/          				# Actividades de comprensión lectora
 ├── sustantivo_y_adjetivos/       				# Género, número, posición del adjetivo
-├──	determinantes/				 			          # Artículos, demostrativos, posesivos, indefinidos, numerales, cuantificadores
+├──	determinantes/				 		# Artículos, demostrativos, posesivos, indefinidos, numerales, cuantificadores
 ├── pronombres/                   				# Sujeto, con preposición, de objeto, posición, reduplicación; construcciones reflexivas
-├── comparar/									            #
-├── verbos_formas_simples/						    #	
-│	├indicativo/							            	#
-│	├── presente de indicativo/					    #
-│	├── pretérito imperfecto/					      #
-│	├── pretérito perfecto simple/				  #
-	│	├──La aventura de Tomate				      # 19 fill-in-the-blank paragrah
-│	├── futuro simple/							        #
-│	├── condicional simple/						      #
-│	├subjuntivo/								            #
-│	│ 	├── presente/							          #
+├── comparar/							#
+├── verbos_formas_simples/					#	
+│	├indicativo/						#
+│	├── presente de indicativo/				#
+│	├── pretérito imperfecto/				#
+│	├── pretérito perfecto simple/				#
+	│	├──La aventura de Tomate			# 19 fill-in-the-blank paragrah
+│	├── futuro simple/					#
+│	├── condicional simple/					#
+│	├subjuntivo/					 	#
+│	│ 	├── presente/					#
 │	│ 	├── imperfecto/							        #
 ├── verbos_formas_compuestas					    #
 │	├indicativo/								            #
