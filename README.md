@@ -54,40 +54,47 @@ These exercises are designed for Spanish learners and educators and aim to provi
 
 ```plaintext
 /ejercicios/
-├── comprension_auditiva/         # Actividades de comprensión auditiva
-├── comprension_lectora/          # Actividades de comprensión lectora
-├── practica_oral/                # Actividades de práctica oral
-├── practica_escrita/             # Ejercicios de escritura
-├── verbos/                       # Ejercicios relacionados con verbos
-│   ├── indicativo/               # Ejercicios sobre el modo Indicativo
-│   │   ├── presente/             # Ejercicios sobre el Presente
-│   │   ├── pasado/               # Ejercicios sobre el Pretérito y el Imperfecto
-│   │   ├── futuro/               # Ejercicios sobre el Futuro
-│   │   ├── tiempos_compuestos/   # Ejercicios sobre los Tiempos Compuestos
-│   ├── condicional/              # Ejercicios sobre el modo Condicional
-│   ├── subjuntivo/               # Ejercicios sobre el modo Subjuntivo
-│   │   ├── presente_subjuntivo/  # Ejercicios sobre el Presente del Subjuntivo
-│   │   ├── imperfecto_subjuntivo/# Ejercicios sobre el Imperfecto del Subjuntivo
-│   ├── ser_estar/                # Ejercicios sobre "Ser" y "Estar"
-│   ├── verbos_modales/           # Ejercicios sobre Verbos Modales (poder, querer, deber, etc.)
-│   ├── gustar/                   # Ejercicios sobre 'Gustar' y verbos similares
-│   ├── verbos_reflexivos/        # Ejercicios sobre Verbos Reflexivos
-│   ├── verbos_irregulares/       # Ejercicios sobre Verbos Irregulares
-│   ├── gerundios/                # Ejercicios sobre Gerundios y Formas Continuas
-│   ├── imperativos/              # Ejercicios sobre Comandos Imperativos
-│   ├── voz_pasiva/               # Ejercicios sobre la Voz Pasiva y Construcciones
-│   ├── frases_verbales/          # Ejercicios sobre Verbos Frasales y Preposicionales
-├── sustantivos_y_articulos/      # Ejercicios sobre Sustantivos y Artículos
-├── adjetivos/                    # Ejercicios sobre Adjetivos
-├── pronombres/                   # Ejercicios sobre Pronombres
-├── preposiciones/                # Ejercicios sobre Preposiciones
-├── conjunciones/                 # Ejercicios sobre Conjunciones
-├── formacion_de_preguntas/       # Ejercicios sobre la formación de preguntas
-├── negacion/                     # Ejercicios sobre la negación
-├── numeros_fechas/               # Ejercicios sobre Números y Fechas
-├── comparaciones/                # Ejercicios sobre Comparaciones
-├── imperativo/                   # Ejercicios sobre el Imperativo
-├── explicacion_gramatical.html   # Explicaciones gramaticales
+├── comprension_auditiva/         				# Actividades de comprensión auditiva
+├── comprension_lectora/          				# Actividades de comprensión lectora
+├── sustantivo_y_adjetivos/       				# Género, número, posición del adjetivo
+├──	determinantes/				 			          # Artículos, demostrativos, posesivos, indefinidos, numerales, cuantificadores
+├── pronombres/                   				# Sujeto, con preposición, de objeto, posición, reduplicación; construcciones reflexivas
+├── comparar/									            #
+├── verbos_formas_simples/						    #	
+│	├indicativo/							            	#
+│	├── presente de indicativo/					    #
+│	├── pretérito imperfecto/					      #
+│	├── pretérito perfecto simple/				  #
+	│	├──La aventura de Tomate				      # 19 fill-in-the-blank paragrah
+│	├── futuro simple/							        #
+│	├── condicional simple/						      #
+│	├subjuntivo/								            #
+│	│ 	├── presente/							          #
+│	│ 	├── imperfecto/							        #
+├── verbos_formas_compuestas					    #
+│	├indicativo/								            #
+│	├── pretérito perfecto compuesto/		  	#
+│	├── pretérito pluscuamperfecto/				  #
+│	├── futuro compuesto/						        #
+│	├── condicional compuesto/					    #
+│	├subjuntivo/								            #
+│	├── pretérito perfecto compuesto/			  #
+│	├── pretérito pluscuamperfecto/				  #
+├── imperativo/									          #
+├── gerundio_participio/						      #  
+├── ser_y_estar/							  	        #
+├── haber_y_estar/								        #
+├── sustantivos_y_articulos/              # Ejercicios sobre Sustantivos y Artículos
+├── adjetivos/                            # Ejercicios sobre Adjetivos
+├── pronombres/                           # Ejercicios sobre Pronombres
+├── preposiciones/                        # Ejercicios sobre Preposiciones
+├── conjunciones/                         # Ejercicios sobre Conjunciones
+├── formacion_de_preguntas/               # Ejercicios sobre la formación de preguntas
+├── negacion/                             # Ejercicios sobre la negación
+├── numeros_fechas/                       # Ejercicios sobre Números y Fechas
+├── comparaciones/                        # Ejercicios sobre Comparaciones
+├── imperativo/                           # Ejercicios sobre el Imperativo
+├── explicacion_gramatical.html           # Explicaciones gramaticales
 ```
 
 ## Future Plans
